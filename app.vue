@@ -1,6 +1,6 @@
 <template>
     <div>
-        <PrimeButton label="Verify" />
+        <NuxtPage />
     </div>
 </template>
 <style lang="css">
@@ -14,5 +14,9 @@
         font-family: 'Roboto', Arial, sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
+    }
+
+    html {
+        font-size: 14px;
     }
 </style>
